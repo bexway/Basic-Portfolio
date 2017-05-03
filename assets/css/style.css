@@ -59,6 +59,15 @@ hr {
   width: 50px;
 }
 
+.overimage{
+  position:absolute;
+  top:135px;
+  text-align: center;
+  background:red;
+  width:275px;
+  height:60px;
+}
+
 .parent{
   display: flex;
 }
@@ -69,4 +78,8 @@ hr {
 
 .parent-around{
   justify-content: space-around;
+}
+
+.portfolio-square{
+  position: relative;
 }
