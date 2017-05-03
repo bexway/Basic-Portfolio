@@ -10,18 +10,25 @@ hr {
     margin: 1em 0;
     padding: 0;
 }
-
+/*the about and contacts are flex children, not flex boxes. flex end*/
 .about {
   background: blue;
   width: 650px;
   height: auto;
-  margin-left: 10%;
+  margin: 40px 40px auto 10%;
+  padding: 30px
 }
 
 .bio_image{
-  height:10%;
-  width: 10%;
+  height: 25%;
+  width: 25%;
+  float:left;
+}
 
+.connect{
+  height: 200px;
+  width: 200px;
+  background: green;
 }
 
 .container{
@@ -37,8 +44,29 @@ hr {
     overflow: auto;
 }
 
+.flex-child{
+
+}
+
 .header {
   background: red;
   width: 100%;
   height: 100px;
+}
+
+.icon{
+  height: 50px;
+  width: 50px;
+}
+
+.parent{
+  display: flex;
+}
+
+.parent-between{
+  justify-content: space-between;
+}
+
+.parent-around{
+  justify-content: space-around;
 }
