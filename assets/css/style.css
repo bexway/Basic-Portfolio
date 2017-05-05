@@ -2,19 +2,11 @@
   box-sizing: border-box
 }
 
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-}
 /*the about and contacts are flex children, not flex boxes. flex end*/
 .about {
-  width: 650px;
+  width: 40.31em;
   height: auto;
-  margin: 40px 40px auto 10%;
+  margin: 40px 2.5em auto 10%;
   padding: 30px
 }
 
@@ -30,11 +22,13 @@ hr {
   height: 25%;
   width: 25%;
   float:left;
+  margin-right: 1.5em;
 }
 
-.connect{
-  height: 200px;
-  width: 200px;
+.connectbox{
+  height: 12.5em;
+  width: 16.875em;
+  padding: 2em;
 }
 
 .container{
@@ -60,18 +54,19 @@ hr {
 }
 
 .font-bold{
-  font-weight: 600;
+  font-weight: bold;
 }
 
 .font-general{
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
-    font-size: 15px;
+    font-size: 1em;
+    line-height: 2em;
+    font-weight: 300;
 }
 
 .font-header{
   font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
-  font-size: 35px;
 }
 
 .font-teal{
@@ -80,6 +75,22 @@ hr {
 
 .font-white{
   color: #fff;
+}
+
+.font1em{
+  font-size: 1em;
+}
+
+.font1p25em{
+  font-size: 1.25em;
+}
+
+.font1halfem{
+  font-size: 1.5em;
+}
+
+.font2em{
+  font-size: 2em;
 }
 
 .footer{
@@ -101,9 +112,14 @@ hr {
   display: inline-block;
 }
 
-.hr{
-  height:1px;
-  border-top: 4px solid #dddddd;
+.hr-about{
+  border-top: 3px solid #dddddd;
+  margin: 2.1875em auto 2.1875em auto;
+}
+
+.hr-connect{
+  border-top: 1px solid #dddddd;
+  margin: 1.5em auto 1.5em auto;
 }
 
 .icon{
@@ -111,11 +127,48 @@ hr {
   width: 50px;
 }
 
+.marginleft{
+  margin-left: 9.6875em;
+}
+
+.marginright{
+  margin-right: 15em;
+}
+
+.margintop{
+  margin-top: 35px;
+}
+
+.margin20{
+  margin: 20px;
+}
+
 .name{
   width: 250px;
   height: 100%;
   padding: 35px auto 35px auto;
   line-height: 90px;
+}
+
+.nav a{
+  text-decoration: none;
+  color: #777777;
+}
+
+.nav a:link {
+  color: #777777;
+}
+
+.nav a:visited {
+  color: #777777;
+}
+
+.nav a:hover {
+  color: #4aaaa5;
+}
+
+.nav a:active {
+  color: #4aaaa5;
 }
 
 .overimage{
