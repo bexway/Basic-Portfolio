@@ -121,6 +121,9 @@
 .footer{
   height: 5.875em;
   width:100%;
+  /*position: absolute;
+  left: 0;
+  bottom: 0;*/
 }
 
 .header {
@@ -259,6 +262,10 @@ input::placeholder{
 
 .text-center{
   text-align: center;
+}
+
+.total-content{
+  min-height: 475px;
 }
 
 .vr{
