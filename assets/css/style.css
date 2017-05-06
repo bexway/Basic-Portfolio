@@ -4,7 +4,8 @@
 
 /*the about and contacts are flex children, not flex boxes. flex end*/
 .about {
-  width: 40.31em;
+  /*width: 40.625em;*/
+  width: 650px;
   height: auto;
   margin: 40px 2.5em auto 10%;
   padding: 30px
@@ -200,7 +201,6 @@ input::placeholder{
   position:absolute;
   top:135px;
   text-align: center;
-  background:red;
   width:275px;
   height:60px;
 }
@@ -225,12 +225,19 @@ input::placeholder{
   justify-content: center;
 }
 
-.portfolio-square{
-  position: relative;
-}
-
 .parent-vcenter{
   align-items: center;
+}
+
+.parent-wrap{
+  flex-wrap: wrap;
+}
+
+.portfolio-square{
+  position: relative;
+  display:inline-block;
+  margin-right: 1em;
+  margin-bottom: 3.4375em;
 }
 
 .text-center{
